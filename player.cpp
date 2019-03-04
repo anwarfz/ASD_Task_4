@@ -63,8 +63,6 @@ void playRepeat(List &L, int n) {
     */
     //------------- YOUR CODE HERE -------------
 
-        cout<<"UNDER MAIN TENIS"<<endl;
-
     //----------------------------------------
 }
 
@@ -76,9 +74,6 @@ void deleteMusicByID(List &L, infotype x) {
     * FS : elemen dengan ID yang dicari dideallocate
     */
     //------------- YOUR CODE HERE -------------
-
-        cout<<"UNDER MAIN TENIS"<<endl;
-
     //----------------------------------------
 
 }

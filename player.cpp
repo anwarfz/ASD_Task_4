@@ -43,9 +43,16 @@ void shuffleList(List &L) {
     * FS : isi (elemen) dari list teracak
     */
     //------------- YOUR CODE HERE -------------
-
-        cout<<"UNDER MAIN TENIS"<<endl;
-
+    address p;
+    for (int i = 0; i < 7; i++) {
+        p = first(L);
+        x = randomInt(7);
+        for (int j = 0; j < 7; j++) {
+            p = next(p);
+        }
+        deleteAfter(L,P,prev(P));
+        insertFirst(L,P);z
+    }
     //----------------------------------------
 }
 

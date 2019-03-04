@@ -29,15 +29,15 @@ typedef struct elmlist *address;
 
 struct elmlist {
     //-------------  YOUR CODE HERE  -----------
-
-
+    address next;
+    address prev;
+    infotype info
     //----------------------------------------
 };
 
 struct List {
     //-------------  YOUR CODE HERE  -----------
-
-
+    address first;
     //----------------------------------------
 };
 
@@ -50,8 +50,8 @@ void createList(List &);
 address allocate(infotype );
 void deallocate(address &);
 
-void insertFirst(List &, address );
-void insertLast(List &, address );
+void insertFirst(List &, address &);
+void insertLast(List &, address &);
 void insertAfter(List &, address &, address);
 
 void deleteFirst(List &, address &);
